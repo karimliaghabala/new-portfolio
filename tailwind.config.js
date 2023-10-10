@@ -9,6 +9,9 @@ module.exports = {
         texlight: "#a7a7a7",
         bgPrimary: "#020010",
       },
+      fontSize:{
+        'header':'32px',
+      }
     },
   },
   plugins: [],

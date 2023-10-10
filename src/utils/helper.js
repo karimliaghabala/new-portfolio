@@ -11,17 +11,15 @@ import {
   FaRenren,
   FaUser,
   FaYoutube,
+  FaCertificate,
 } from "react-icons/fa6";
 import {
   ChatApp,
   CodePenClone,
   FreshJuiceUI,
-  ImageSharing,
   OpenAI,
-  PixabayClone,
   PortfolioFirebase,
   RestaurantClone,
-  SocialMedia,
 
 } from "../assets";
 
@@ -76,6 +74,12 @@ export const Menus = [
     Icon: FaDiagramProject,
     uri: "#projects",
     name: "Projects",
+  },  
+  {
+    id: `certficate-${Date.now()}`,
+    Icon: FaCertificate,
+    uri: "#certficate",
+    name: "Certficate",
   },
   {
     id: `contact-${Date.now()}`,
