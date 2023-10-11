@@ -17,7 +17,7 @@ const Certficate = () => {
   return (
     <section
       id="certficate"
-      className="w-full flex flex-col items-center justify-between"
+      className="w-full flex flex-col items-center justify-between pr-2"
     >
       <motion.div
         initial={{ opacity: 0, width: 0 }}
