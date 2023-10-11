@@ -28,7 +28,7 @@ const Skills = () => {
       </motion.div>
     </div>
     {/* main container */}
-    <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 w-full">
+    <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 w-full pr-4">
 
       {/* content section */}
       <div className="w-full px-8 flex flex-col gap-4 items-start justify-start">
