@@ -28,7 +28,7 @@ const Skills = () => {
       </motion.div>
     </div>
     {/* main container */}
-    <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 w-full ">
+    <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 w-full pl-8 ">
 
       {/* content section */}
       <div className="w-full px-8 flex flex-col gap-4 items-start justify-start">
@@ -43,7 +43,7 @@ const Skills = () => {
       </p>
       </div>
             {/* image section */}
-      <div className="w-full flex flex-col gap-4 items-center justify-center px-8 pl-12">
+      <div className="w-full flex flex-col gap-4 items-center justify-center px-8 ">
         <SkillCard skill={"HTML5"} percentage={"95%"} color={"#FF3F3F"}  />
         <SkillCard skill={"CSS 3 (SCSS,Bootstrap,Tailwind)"} percentage={"85%"} color={"#008FFF"}  move={true}/>
         <SkillCard skill={"Java Script"} percentage={"75%"} color={"#FFB900"} />
