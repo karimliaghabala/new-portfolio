@@ -33,7 +33,7 @@ const Certficate = () => {
         <img src={Leaf2} className="w-6 h-auto object-contain" alt="Leaf" />
       </motion.div>
 
-      <div className="course-info w-full  flex flex-col md:flex-row justify-between gap-6 items-center mt-8 p-2 border border-[rgba(255,255,255,0.1)] backdrop-blur-sm ml-6">
+      <div className="course-info w-full  flex flex-col md:flex-row justify-between gap-6 items-center mt-8 p-2 border border-[rgba(255,255,255,0.1)] backdrop-blur-sm ">
         <div className="left-info text-white w-full flex flex-col items-center justify-around ">
           <p className="text-header pt-4">2022 (June-August)</p>
           <p className="text-lg pt-4">Ministry of Education and Vocational

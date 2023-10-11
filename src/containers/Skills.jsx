@@ -43,7 +43,7 @@ const Skills = () => {
       </p>
       </div>
             {/* image section */}
-      <div className="w-full flex flex-col gap-4 items-center justify-center px-8 pl-6">
+      <div className="w-full flex flex-col gap-4 items-center justify-center px-8 ">
         <SkillCard skill={"HTML5"} percentage={"95%"} color={"#FF3F3F"}  />
         <SkillCard skill={"CSS 3 (SCSS,Bootstrap,Tailwind)"} percentage={"85%"} color={"#008FFF"}  move={true}/>
         <SkillCard skill={"Java Script"} percentage={"75%"} color={"#FFB900"} />
