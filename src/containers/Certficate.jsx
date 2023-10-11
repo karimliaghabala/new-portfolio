@@ -33,8 +33,8 @@ const Certficate = () => {
         <img src={Leaf2} className="w-6 h-auto object-contain" alt="Leaf" />
       </motion.div>
 
-      <div className="course-info w-full flex justify-between items-center mt-8 p-2 border border-[rgba(255,255,255,0.1)] backdrop-blur-sm ">
-        <div className="left-info text-white w-full flex flex-col items-start justify-around">
+      <div className="course-info w-full  flex flex-col md:flex-row justify-between gap-6 items-center mt-8 p-2 border border-[rgba(255,255,255,0.1)] backdrop-blur-sm ">
+        <div className="left-info text-white w-full flex flex-col items-center justify-around ">
           <p className="text-header pt-4">2022 (June-August)</p>
           <p className="text-lg pt-4">Ministry of Education and Vocational
 Education Center</p>
@@ -55,8 +55,8 @@ Education Center</p>
           )}
         </motion.div>
       </div>
-      <div className="course-info w-full flex justify-between items-center mt-8 p-2 border border-[rgba(255,255,255,0.1)] backdrop-blur-sm">
-        <div className="left-info text-white w-full flex flex-col items-start justify-around">
+      <div className="course-info w-full  flex flex-col md:flex-row justify-between gap-6 items-center mt-8 p-2 border border-[rgba(255,255,255,0.1)] backdrop-blur-sm">
+        <div className="left-info text-white w-full flex flex-col items-center justify-around">
           <p className="text-header pt-4">2022 (July-October)</p>
           <p className="text-lg pt-4">Ministry of Youth and Sports and
 CODE Factory</p>
@@ -77,8 +77,8 @@ CODE Factory</p>
           )}
         </motion.div>
       </div>
-      <div className="course-info w-full flex justify-between items-center mt-8 p-2 border border-[rgba(255,255,255,0.1)] backdrop-blur-sm">
-        <div className="left-info text-white w-full flex flex-col items-start justify-around">
+      <div className="course-info w-full  flex flex-col md:flex-row justify-between gap-6 items-center mt-8 p-2 border border-[rgba(255,255,255,0.1)] backdrop-blur-sm">
+        <div className="left-info text-white w-full flex flex-col items-center justify-around">
           <p className="text-header pt-4">2022/Sept-2023/Jan</p>
           <p className="text-lg pt-4">T academy and Algorithmics</p>
           <p className="text-base pt-4">WFRONTEND developer</p>
@@ -98,8 +98,8 @@ CODE Factory</p>
           )}
         </motion.div>
       </div>
-      <div className="course-info w-full flex justify-between items-center mt-8 p-2 border border-[rgba(255,255,255,0.1)] backdrop-blur-sm">
-        <div className="left-info text-white w-full flex flex-col items-start justify-around">
+      <div className="course-info w-full  flex flex-col md:flex-row justify-between gap-6 items-center mt-8 p-2 border border-[rgba(255,255,255,0.1)] backdrop-blur-sm">
+        <div className="left-info text-white w-full flex flex-col items-center justify-around">
           <p className="text-header pt-4">2023/Aug-2024/Jan Continue...</p>
           <p className="text-lg pt-4">JED Academy</p>
           <p className="text-base pt-4">FRONTEND developer</p>
@@ -109,7 +109,7 @@ CODE Factory</p>
           onMouseEnter={() => setIsHoverred4(true)}
           onMouseLeave={() => setIsHoverred4(false)}
         >
-          <motion.img className="blur-lg" src={cert4} alt="certficate" />
+          <motion.img className="blur-lg md:w-full" src={cert4} alt="certficate" />
           {isHoverred4 && (
             <motion.div className="absolute inset-0 backdrop-blur-xs bg-[rgba(0,0,0,0.6)] flex items-center justify-center flex-col gap-2 pl-2 ">
               <a href="#" className="absolute text-white">
@@ -119,6 +119,8 @@ CODE Factory</p>
           )}
         </motion.div>
       </div>
+
+
     </section>
   );
 };

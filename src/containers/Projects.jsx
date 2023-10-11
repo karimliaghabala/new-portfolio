@@ -46,13 +46,13 @@ const {t} = useTranslation()
           onMouseLeave={()=>setIsHoverred(false)}
           >
             <motion.img 
-            className=" w-full h-full object-contain rounded-lg " 
+            className=" w-full h-auto object-contain rounded-lg " 
             src={project.imgSrc}
             whileHover={{scale : 1.1}}
             />
             {isHoverred && (
              <motion.div className="absolute inset-0 backdrop-blur-md bg-[rgba(0,0,0,0.6)] flex items-center justify-center flex-col gap-2 pl-2 ">
-                <p className="text-xl text-primary pl-7">{project?.name}</p>
+                <p className="text-xl text-primary ">{project?.name}</p>
                 <a href={project?.gitURL}>
                  <FaGithub className="text-3xl text-white hover:text-primary " />
                 </a>
