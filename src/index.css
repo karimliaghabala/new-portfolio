@@ -1,8 +1,8 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
-/* 
-@import url(https://fonts.googleapis.com/css?family=Croissant+One:regular); */
+
+
 @import url(https://fonts.googleapis.com/css2?family=Tapestry&display=swap);
 * {
   box-sizing: border-box ;
@@ -13,7 +13,6 @@ body {
   min-height: 100vh;
   height: 100vh;
   background: #020010;
-  /* font-family: "Croissant One", cursive; */
   font-family: "Tapestry", cursive;
   display: flex;
   flex-direction: column;
