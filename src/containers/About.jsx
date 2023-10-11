@@ -25,7 +25,7 @@ const About = () => {
       </motion.div>
     </div>
     {/* main container */}
-    <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 w-full">
+    <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 w-full pl-2">
       {/* image section */}
       <div className="w-full flex items-center justify-center px-8">
         <div className="w-full lg:w-96 p-[2px] rounded-md bg-gradient-to-br from bg-primary to-secondary relative ">
