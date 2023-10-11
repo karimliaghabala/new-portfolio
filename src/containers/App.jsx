@@ -11,7 +11,7 @@ import {
 } from "./";
 import { HomeSocialLinks } from "../components";
 import { Socials } from "../utils/helper";
-import { motion, AnimatePresence } from "framer-motion";
+import { AnimatePresence } from "framer-motion";
 import { useTranslation } from "react-i18next";
 import Certficate from "./Certficate";
 

@@ -1,5 +1,5 @@
 import React from "react";
-import {motion, AnimatePresence} from 'framer-motion'
+import {motion} from 'framer-motion'
 import { Leaf1, Leaf2} from "../assets";
 import { SkillCard } from "../components";
 import {useTranslation } from 'react-i18next'
