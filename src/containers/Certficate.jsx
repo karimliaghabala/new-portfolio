@@ -33,7 +33,7 @@ const Certficate = () => {
         <img src={Leaf2} className="w-6 h-auto object-contain" alt="Leaf" />
       </motion.div>
 
-      <div className="course-info w-full flex justify-between items-center mt-8 p-2 border border-[rgba(255,255,255,0.1)] backdrop-blur-sm">
+      <div className="course-info w-full flex justify-between items-center mt-8 p-2 border border-[rgba(255,255,255,0.1)] backdrop-blur-sm ">
         <div className="left-info text-white w-full flex flex-col items-start justify-around">
           <p className="text-header pt-4">2022 (June-August)</p>
           <p className="text-lg pt-4">Ministry of Education and Vocational
@@ -48,7 +48,7 @@ Education Center</p>
           <motion.img className="" src={cert1} alt="certficate" />
           {isHoverred && (
             <motion.div className="absolute inset-0 backdrop-blur-xs bg-[rgba(0,0,0,0.6)] flex items-center justify-center flex-col gap-2 pl-2 ">
-              <a href="https://drive.google.com/file/d/1a0Io_Ta2WPOAZbM2x1o84aUHyU4kPTL8/view?usp=drive_link" className="absolute text-white">
+              <a href="https://raw.githubusercontent.com/karimliaghabala/portfolio/master/src/assets/image/sertficats/sqlsertf.jpeg" className="absolute text-white">
                 Sertifikata bax
               </a>
             </motion.div>
@@ -70,7 +70,7 @@ CODE Factory</p>
           <motion.img className="" src={cert2} alt="certficate" />
           {isHoverred2 && (
             <motion.div className="absolute inset-0 backdrop-blur-xs bg-[rgba(0,0,0,0.6)] flex items-center justify-center flex-col gap-2 pl-2 ">
-              <a href="#" className="absolute text-white">
+              <a href="https://raw.githubusercontent.com/karimliaghabala/portfolio/master/src/assets/image/sertficats/ginsertf.jpg" className="absolute text-white">
                 Sertifikata bax
               </a>
             </motion.div>
@@ -91,7 +91,7 @@ CODE Factory</p>
           <motion.img className="" src={cert3} alt="certficate" />
           {isHoverred3 && (
             <motion.div className="absolute inset-0 backdrop-blur-xs bg-[rgba(0,0,0,0.6)] flex items-center justify-center flex-col gap-2 pl-2 ">
-              <a href="#" className="absolute text-white">
+              <a href="https://raw.githubusercontent.com/karimliaghabala/portfolio/master/src/assets/image/sertficats/itacademy.jpg" className="absolute text-white">
                 Sertifikata bax
               </a>
             </motion.div>
