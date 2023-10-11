@@ -13,6 +13,7 @@ import {
   FaYoutube,
   FaCertificate,
 } from "react-icons/fa6";
+
 import {
   ChatApp,
   CodePenClone,
@@ -22,6 +23,7 @@ import {
   RestaurantClone,
 
 } from "../assets";
+
 
 export const Socials = [
   {

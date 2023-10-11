@@ -28,17 +28,16 @@ const Certficate = () => {
       >
         <img src={Leaf1} className="w-6 h-auto object-contain" alt="Leaf" />
         <p className="text-transparent text-center bg-clip-text bg-gradient-to-r from-primary to-secondary capitalize">
-          Certficates and Courses
+          {t('hCertf')}
         </p>
         <img src={Leaf2} className="w-6 h-auto object-contain" alt="Leaf" />
       </motion.div>
 
       <div className="course-info w-full  flex flex-col md:flex-row justify-between gap-6 items-center mt-8 p-2 border border-[rgba(255,255,255,0.1)] backdrop-blur-sm ml-10">
         <div className="left-info text-white w-full flex flex-col items-center justify-around ">
-          <p className="text-header pt-4">2022 (June-August)</p>
-          <p className="text-lg pt-4 text-center">Ministry of Education and Vocational
-Education Center</p>
-          <p className="text-base pt-4">SQL programmer</p>
+          <p className="text-header pt-4">{t('year')}</p>
+          <p className="text-lg pt-4 text-center">{t('edu')}</p>
+          <p className="text-base pt-4">{t('specialty')}</p>
         </div>
         <motion.div
           className=" overflow-hidden cursor-pointer relative  right-img-link max-w-[300px]  "
@@ -49,18 +48,17 @@ Education Center</p>
           {isHoverred && (
             <motion.div className="absolute inset-0 backdrop-blur-xs bg-[rgba(0,0,0,0.6)] flex items-center justify-center flex-col gap-2 pl-2 ">
               <a href="https://raw.githubusercontent.com/karimliaghabala/portfolio/master/src/assets/image/sertficats/sqlsertf.jpeg" className="absolute text-white">
-                Sertifikata bax
+              {t('certficate')}
               </a>
             </motion.div>
           )}
         </motion.div>
       </div>
       <div className="course-info w-full  flex flex-col md:flex-row justify-between gap-6 items-center mt-8 p-2 border border-[rgba(255,255,255,0.1)] backdrop-blur-sm ml-10">
-        <div className="left-info text-white w-full flex flex-col items-center justify-around">
-          <p className="text-header pt-4">2022 (July-October)</p>
-          <p className="text-lg pt-4">Ministry of Youth and Sports and
-CODE Factory</p>
-          <p className="text-base pt-4">WEB developer</p>
+      <div className="left-info text-white w-full flex flex-col items-center justify-around ">
+          <p className="text-header pt-4">{t('year2')}</p>
+          <p className="text-lg pt-4 text-center2">{t('edu')}</p>
+          <p className="text-base pt-4">{t('specialty2')}</p>
         </div>
         <motion.div
           className=" overflow-hidden cursor-pointer relative  right-img-link max-w-[300px]  "
@@ -71,17 +69,17 @@ CODE Factory</p>
           {isHoverred2 && (
             <motion.div className="absolute inset-0 backdrop-blur-xs bg-[rgba(0,0,0,0.6)] flex items-center justify-center flex-col gap-2 pl-2 ">
               <a href="https://raw.githubusercontent.com/karimliaghabala/portfolio/master/src/assets/image/sertficats/ginsertf.jpg" className="absolute text-white">
-                Sertifikata bax
+                {t('certficate')}
               </a>
             </motion.div>
           )}
         </motion.div>
       </div>
       <div className="course-info w-full  flex flex-col md:flex-row justify-between gap-6 items-center mt-8 p-2 border border-[rgba(255,255,255,0.1)] backdrop-blur-sm ml-10">
-        <div className="left-info text-white w-full flex flex-col items-center justify-around">
-          <p className="text-header pt-4">2022/Sept-2023/Jan</p>
-          <p className="text-lg pt-4">T academy and Algorithmics</p>
-          <p className="text-base pt-4">WFRONTEND developer</p>
+      <div className="left-info text-white w-full flex flex-col items-center justify-around ">
+          <p className="text-header pt-4">{t('year3')}</p>
+          <p className="text-lg pt-4 text-center">{t('edu3')}</p>
+          <p className="text-base pt-4">{t('specialty3')}</p>
         </div>
         <motion.div
           className=" overflow-hidden cursor-pointer relative  right-img-link max-w-[300px] max-h-[250px]  "
@@ -92,17 +90,17 @@ CODE Factory</p>
           {isHoverred3 && (
             <motion.div className="absolute inset-0 backdrop-blur-xs bg-[rgba(0,0,0,0.6)] flex items-center justify-center flex-col gap-2 pl-2 ">
               <a href="https://raw.githubusercontent.com/karimliaghabala/portfolio/master/src/assets/image/sertficats/itacademy.jpg" className="absolute text-white">
-                Sertifikata bax
+              {t('certficate')}
               </a>
             </motion.div>
           )}
         </motion.div>
       </div>
       <div className="course-info w-full  flex flex-col md:flex-row justify-between gap-6 items-center mt-8 p-2 border border-[rgba(255,255,255,0.1)] backdrop-blur-sm ml-10">
-        <div className="left-info text-white w-full flex flex-col items-center justify-around">
-          <p className="text-header pt-4 text-center">2023/Aug-2024/Jan Continue...</p>
-          <p className="text-lg pt-4">JED Academy</p>
-          <p className="text-base pt-4">FRONTEND developer</p>
+      <div className="left-info text-white w-full flex flex-col items-center justify-around ">
+          <p className="text-header pt-4">{t('year4')}</p>
+          <p className="text-lg pt-4 text-center">{t('edu4')}</p>
+          <p className="text-base pt-4">{t('specialty4')}</p>
         </div>
         <motion.div
           className=" overflow-hidden cursor-pointer relative  right-img-link max-w-[300px]  "

@@ -2,6 +2,7 @@ import React, { Suspense } from 'react'
 import i18n from 'i18next'
 import { initReactI18next } from 'react-i18next'
 
+
 const translationAz = {
     about: "Haqqında",
     skills: "Bacarıqlar",
@@ -29,6 +30,20 @@ const translationAz = {
     hapC:"Xoşbəxt müştərilər",
     fsProject:"Tam layihələr",
     pProject:"Ümumi layihələr",
+    year:"2022 (iyun-avqust)",
+    edu:"Təhsil Nazirliyi və Peşə Təhsil Mərkəzi",
+    specialty:"SQL proqramçısı",
+    year2:"2022 (iyul-oktyabr)",
+    edu2:"Gənclər və İdman Nazirliyi və CODE Factory",
+    specialty2:"Veb proqramçı",
+    year3:"2022/Sen-2023/Yan",
+    edu3:"IT Academy and Algorithmics",
+    specialty3:"Front-End developer",
+    year4:"2023/Avqust-2024/Yan(Davam edir...)",
+    edu4:"JED Academy",
+    specialty4:"FRONT-END proqramçı",
+    certficate:"Sertfikata bax",
+    hCertf:"Sertficatlar və kurslar"
 
 }
 const translationEn = {
@@ -58,7 +73,20 @@ const translationEn = {
     hapC:"Happy Customers",
     fsProject:"Full-Stack Projects",
     pProject:"Public Projects",
-
+    year:"2022 (June-August)",
+    edu:"Ministry of Education and Vocational Education Center",
+    specialty:"SQL programmer",
+    year2:"2022 (July-October)",
+    edu2:"Ministry of Youth and Sports and CODE Factory",
+    specialty2:"WEB developer",
+    year3:"2022/Sept-2023/Jan",
+    edu3:"IT Academy and Algorithmics",
+    specialty3:"FRONT-END developer",
+    year4:"2023/Aug-2024/Jan( Continue...)",
+    edu4:"JED Academy",
+    specialty4:"FRONT-END developer",
+    certficate:"See the certificate",
+    hCertf:"Certficates and Courses"
 
 }
 const translationRu = {
@@ -88,6 +116,21 @@ const translationRu = {
     hapC:"Счастливые клиенты",
     fsProject:"Полнофункциональные проекты",
     pProject:"Общественные проекты",
+    year:"2022 (июнь-август)",
+    edu:"Центр Министерства образования и профессионального образования",
+    specialty:"SQL-программист",
+    year2:"2022 (июль-октябрь)",
+    edu2:"Министерство молодежи и спорта и Фабрика CODE",
+    specialty2:"Веб-разработчик",
+    year3:"2022/сентябрь-2023/январь",
+    edu3:"ИТ Академия и алгоритмика",
+    specialty3:"ФРОНТ-ЭНД разработчик",
+    year4:"2023/Авкуст-2024/Ян",
+    edu4:"Академия ДЖЕД",
+    specialty4:"ФРОНТ-ЭНД разработчик",
+    certficate:"Посмотреть сертификат",
+    hCertf:"Сертификат и курс"
+
 }
 
 const translationDe = {
@@ -116,13 +159,28 @@ const translationDe = {
     hapS:"Glückliche Studenten",
     hapC:"Zufriedene Kunden",
     fsProject:"Full-Stack-Projekte",
-    pProject:"Öffentliche Projekte"
+    pProject:"Öffentliche Projekte",
+    year:"2022 (Juni-August)",
+    edu:"Zentrum des Ministeriums für Bildung und Berufsbildung",
+    specialty:"SQL-Programmierer",
+    year2:"2022 (Juli-Oktober)",
+    edu2:"Ministerium für Jugend und Sport und CODE Factory",
+    specialty2:"Web-Entwickler",
+    year3:"2022/September-2023/Januar",
+    edu3:"IT-Akademie und Algorithmik",
+    specialty3:"Entwickler für Benutzeroberflächen",
+    year4:"2023/Avkust-2024/Yan ",
+    edu4:"JED-Akademie",
+    specialty4:"Entwickler für Benutzeroberflächen",
+    certficate:"Zertifikat ansehen",
+    hCertf:"Zertifikat und Kurs"
+
 }
 i18n
     .use(initReactI18next)
     .init({
         resources: {
-            az: { translation: translationAz },
+            az: { translation: translationAz }, 
             en: { translation: translationEn },
             ru: { translation: translationRu },
             de: { translation: translationDe },
