@@ -15,10 +15,7 @@ const Home = () => {
     >
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 w-full">
         {/* language container */}
-        <div className=" w-[90%] flex items-center justify-center fixed  top-0 pt-3 z-50 pr-1"
-                      data-aos="fade-up"
-                      data-aos-easing=" ease-out-cubic"
-                      data-aos-duration="1000">
+        <div className=" w-[90%] flex items-center justify-center fixed  top-0 pt-3 z-50 pr-1">
           <Language />
         </div>
         {/* content section */}
@@ -64,7 +61,7 @@ const Home = () => {
         </div>
         {/* hero section */}
         <div className="w-full h-full flex items-start justify-center lg:items-center"
-              data-aos="fade-left"
+              data-aos="fade-up"
               data-aos-easing=" ease-out-cubic"
               data-aos-duration="1000">
           <motion.img
