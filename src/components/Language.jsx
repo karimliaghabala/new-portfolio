@@ -43,7 +43,8 @@ const translationAz = {
     edu4:"JED Academy",
     specialty4:"FRONT-END proqramçı",
     certficate:"Sertfikata bax",
-    hCertf:"Sertficatlar və kurslar"
+    hCertf:"Sertficatlar və kurslar",
+    cv:"CV-ni yüklə"
 
 }
 const translationEn = {
@@ -86,7 +87,8 @@ const translationEn = {
     edu4:"JED Academy",
     specialty4:"FRONT-END developer",
     certficate:"See the certificate",
-    hCertf:"Certficates and Courses"
+    hCertf:"Certficates and Courses",
+    cv:"Upload your CV"
 
 }
 const translationRu = {
@@ -129,7 +131,8 @@ const translationRu = {
     edu4:"Академия ДЖЕД",
     specialty4:"ФРОНТ-ЭНД разработчик",
     certficate:"Посмотреть сертификат",
-    hCertf:"Сертификат и курс"
+    hCertf:"Сертификат и курс",
+    cv:"Загрузите свое резюме"
 
 }
 
@@ -173,7 +176,8 @@ const translationDe = {
     edu4:"JED-Akademie",
     specialty4:"Entwickler für Benutzeroberflächen",
     certficate:"Zertifikat ansehen",
-    hCertf:"Zertifikat und Kurs"
+    hCertf:"Zertifikat und Kurs",
+    cv:"Laden Sie Ihren Lebenslauf hoch"
 
 }
 i18n

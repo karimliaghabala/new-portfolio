@@ -55,7 +55,7 @@ const Home = () => {
             className="mt-12 border border-[rgba(255,255,255,0.3)] rounded-xl px-8 py-3 active:95 group hover:border-primary"
           >
             <p className="text-texlight group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-primary group-hover:to-secondary">
-              {t("contact")}
+              {t("cv")}
             </p>
           </a>
         </div>

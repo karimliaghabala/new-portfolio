@@ -46,7 +46,7 @@ const App = () => {
       className="w-full"
       data-aos="fade-up"
       data-aos-easing=" ease-out-cubic"
-      data-aos-duration="1000">
+      data-aos-duration="5000">
        <Contact />
       </div>
       {/*footer container */}
