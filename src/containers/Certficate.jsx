@@ -25,7 +25,7 @@ const Certficate = () => {
         exit={{ opacity: 0, width: 0 }}
         transition={{ delay: 0.3 }}
         className="flex items-center justify-around w-52 pt-14"
-        data-aos="fade-down"
+        data-aos="fade-up"
         data-aos-easing=" ease-out-cubic"
         data-aos-duration="2000"
       >
@@ -37,7 +37,7 @@ const Certficate = () => {
       </motion.div>
 
       <div
-        data-aos="fade-right"
+        data-aos="fade-up"
         data-aos-easing=" ease-out-cubic"
         data-aos-duration="2000"
         className="course-info w-full  flex flex-col md:flex-row justify-between gap-6 items-center mt-8 border border-[rgba(255,255,255,0.1)] backdrop-blur-sm "
@@ -66,7 +66,7 @@ const Certficate = () => {
         </motion.div>
       </div>
       <div
-        data-aos="fade-left"
+        data-aos="fade-up"
         data-aos-easing=" ease-out-cubic"
         data-aos-duration="3000"
         className="course-info w-full  flex flex-col md:flex-row justify-between gap-6 items-center mt-8 p-2 border border-[rgba(255,255,255,0.1)] backdrop-blur-sm "
@@ -95,7 +95,7 @@ const Certficate = () => {
         </motion.div>
       </div>
       <div
-        data-aos="fade-right"
+        data-aos="fade-up"
         data-aos-easing=" ease-out-cubic"
         data-aos-duration="4000"
         className="course-info w-full  flex flex-col md:flex-row justify-between gap-6 items-center mt-8 p-2 border border-[rgba(255,255,255,0.1)] backdrop-blur-sm "
@@ -124,7 +124,7 @@ const Certficate = () => {
         </motion.div>
       </div>
       <div
-        data-aos="fade-left"
+        data-aos="fade-up"
         data-aos-easing=" ease-out-cubic"
         data-aos-duration="5000"
         className="course-info w-full  flex flex-col md:flex-row justify-between gap-6 items-center mt-8 p-2 border border-[rgba(255,255,255,0.1)] backdrop-blur-sm "

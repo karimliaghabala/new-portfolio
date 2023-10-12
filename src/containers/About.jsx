@@ -13,7 +13,7 @@ const About = () => {
     >
     {/* title */}
     <div className="w-full flex items-center justify-center py-24"
-          data-aos="fade-down"
+          data-aos="fade-up"
           data-aos-easing=" ease-out-cubic"
           data-aos-duration="2000">
       <motion.div 
@@ -31,7 +31,7 @@ const About = () => {
     <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 w-full pl-2">
       {/* image section */}
       <div className="w-full flex items-center justify-center px-8"
-          data-aos="fade-right"
+          data-aos="fade-up"
           data-aos-easing=" ease-out-cubic"
           data-aos-duration="2000">
         <div className="w-full lg:w-96 p-[2px] rounded-md bg-gradient-to-br from bg-primary to-secondary relative ">
@@ -44,7 +44,7 @@ const About = () => {
       </div>
       {/* content section */}
       <div className="w-full px-8 flex flex-col gap-4 items-start justify-start"
-          data-aos="fade-left"
+          data-aos="fade-up"
           data-aos-easing=" ease-out-cubic"
           data-aos-duration="2000">
       <p className="text-texlight text-base tracking-wide text-justify  ">{t('infoAbout1')}

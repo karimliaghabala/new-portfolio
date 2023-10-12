@@ -14,7 +14,7 @@ const Skills = () => {
     >
     {/* title */}
     <div className="w-full flex items-center justify-center py-24"
-          data-aos="fade-down"
+          data-aos="fade-up"
           data-aos-easing=" ease-out-cubic"
           data-aos-duration="2000">
       <motion.div 
@@ -35,7 +35,7 @@ const Skills = () => {
 
       {/* content section */}
       <div className="w-full px-8 flex flex-col gap-4 items-start justify-start"
-          data-aos="fade-right"
+          data-aos="fade-up"
           data-aos-easing=" ease-out-cubic"
           data-aos-duration="2000">
       <p className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary capitalize">
@@ -50,7 +50,7 @@ const Skills = () => {
       </div>
             {/* image section */}
       <div className="w-full flex flex-col gap-4 items-center justify-center px-8 "
-          data-aos="fade-left"
+          data-aos="fade-up"
           data-aos-easing=" ease-out-cubic"
           data-aos-duration="2000">
         <SkillCard skill={"HTML5"} percentage={"95%"} color={"#FF3F3F"}  />

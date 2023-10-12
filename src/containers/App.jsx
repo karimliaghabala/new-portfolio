@@ -28,7 +28,7 @@ const App = () => {
       {/* services count container */}
       <div 
       className="w-full"
-      data-aos="fade-right"
+      data-aos="fade-up"
       data-aos-easing=" ease-out-cubic"
       data-aos-duration="2000">
       <ServiceCount  />
@@ -44,7 +44,7 @@ const App = () => {
       {/*contact container */}
       <div 
       className="w-full"
-      data-aos="fade-left"
+      data-aos="fade-up"
       data-aos-easing=" ease-out-cubic"
       data-aos-duration="2000">
        <Contact />
@@ -55,7 +55,7 @@ const App = () => {
         className="text-3xl tracking-wide text-texlight " 
         data-aos="fade-right"
         data-aos-easing=" ease-out-cubic"
-        data-aos-duration="3000"
+        data-aos-duration="up"
         >
           Karimli Aghabala
         </p>

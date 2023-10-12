@@ -16,14 +16,14 @@ const Home = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 w-full">
         {/* language container */}
         <div className=" w-[90%] flex items-center justify-center fixed  top-0 pt-3 z-50 pr-1"
-                      data-aos="fade-down"
+                      data-aos="fade-up"
                       data-aos-easing=" ease-out-cubic"
                       data-aos-duration="1000">
           <Language />
         </div>
         {/* content section */}
         <div className="w-full h-full flex flex-col items-center lg:items-start justify-center gap-4"              
-              data-aos="fade-right"
+              data-aos="fade-up"
               data-aos-easing=" ease-out-cubic"
               data-aos-duration="1000">
           <h2 className="text-3xl lg:text-4xl text-texlight text-center">

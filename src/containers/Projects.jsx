@@ -14,7 +14,7 @@ const {t} = useTranslation()
     >
     {/* title */}
     <div className="w-full flex items-center justify-center py-24"
-          data-aos="fade-down"
+          data-aos="fade-up"
           data-aos-easing=" ease-out-cubic"
           data-aos-duration="2000">
       <motion.div 
