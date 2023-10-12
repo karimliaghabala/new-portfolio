@@ -50,19 +50,8 @@ const App = () => {
               ))}
           </AnimatePresence>
         </div>
-        <div className="w-full grid grid-cols-1 lg:grid-cols-3 mt-12 ">
-          <p className="text-texlight text-center">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem
-            distinctio ullam dolores ea praesentium voluptates voluptatem
-            nesciunt eaque repudiandae. Fugit nostrum perspiciatis minima ut
-            repellendus illum, temporibus et vitae recusandae.
-          </p>
-          <p className="text-texlight text-center">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem
-            distinctio ullam dolores ea praesentium voluptates voluptatem
-            nesciunt eaque repudiandae. Fugit nostrum perspiciatis minima ut
-            repellendus illum, temporibus et vitae recusandae.
-          </p>
+        <div className="w-full mt-12 ">
+          
           <div className=" w-full flex flex-col items-center justify-center gap-3">
             <p className="text-texlight text-center">agabala.93@gmail.com</p>
             <p className="text-texlight text-center">+994-50-413-15-97</p>
