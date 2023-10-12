@@ -27,7 +27,7 @@ const Certficate = () => {
         className="flex items-center justify-around w-52 pt-14"
         data-aos="fade-up"
         data-aos-easing=" ease-out-cubic"
-        data-aos-duration="2000"
+        data-aos-duration="1000"
       >
         <img src={Leaf1} className="w-6 h-auto object-contain" alt="Leaf" />
         <p className="text-transparent text-center bg-clip-text bg-gradient-to-r from-primary to-secondary capitalize">
@@ -39,7 +39,7 @@ const Certficate = () => {
       <div
         data-aos="fade-up"
         data-aos-easing=" ease-out-cubic"
-        data-aos-duration="2000"
+        data-aos-duration="1000"
         className="course-info w-full  flex flex-col md:flex-row justify-between gap-6 items-center mt-8 border border-[rgba(255,255,255,0.1)] backdrop-blur-sm "
       >
         <div className="left-info text-white w-full flex flex-col items-center justify-around ">
@@ -68,7 +68,7 @@ const Certficate = () => {
       <div
         data-aos="fade-up"
         data-aos-easing=" ease-out-cubic"
-        data-aos-duration="3000"
+        data-aos-duration="1000"
         className="course-info w-full  flex flex-col md:flex-row justify-between gap-6 items-center mt-8 p-2 border border-[rgba(255,255,255,0.1)] backdrop-blur-sm "
       >
         <div className="left-info text-white w-full flex flex-col items-center justify-around ">
@@ -97,7 +97,7 @@ const Certficate = () => {
       <div
         data-aos="fade-up"
         data-aos-easing=" ease-out-cubic"
-        data-aos-duration="4000"
+        data-aos-duration="1000"
         className="course-info w-full  flex flex-col md:flex-row justify-between gap-6 items-center mt-8 p-2 border border-[rgba(255,255,255,0.1)] backdrop-blur-sm "
       >
         <div className="left-info text-white w-full flex flex-col items-center justify-around ">
@@ -126,7 +126,7 @@ const Certficate = () => {
       <div
         data-aos="fade-up"
         data-aos-easing=" ease-out-cubic"
-        data-aos-duration="5000"
+        data-aos-duration="1000"
         className="course-info w-full  flex flex-col md:flex-row justify-between gap-6 items-center mt-8 p-2 border border-[rgba(255,255,255,0.1)] backdrop-blur-sm "
       >
         <div className="left-info text-white w-full flex flex-col items-center justify-around ">

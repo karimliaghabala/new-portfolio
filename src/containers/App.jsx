@@ -46,16 +46,16 @@ const App = () => {
       className="w-full"
       data-aos="fade-up"
       data-aos-easing=" ease-out-cubic"
-      data-aos-duration="2000">
+      data-aos-duration="1000">
        <Contact />
       </div>
       {/*footer container */}
       <div className="w-full flex flex-col items-center justify-start mt-32 mb-12  ">
         <p 
         className="text-3xl tracking-wide text-texlight " 
-        data-aos="fade-right"
+        data-aos="fade-up"
         data-aos-easing=" ease-out-cubic"
-        data-aos-duration="up"
+        data-aos-duration="2000"
         >
           Karimli Aghabala
         </p>
