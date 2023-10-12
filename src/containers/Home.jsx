@@ -11,7 +11,7 @@ const Home = () => {
   return (
     <section
       id="home"
-      className="flex items-center justify-center flex-col gap-12 relative pl-7 pt-2"
+      className="flex items-center justify-center flex-col gap-12 relative pl-4 pt-2"
     >
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 w-full">
         {/* language container */}
@@ -37,7 +37,7 @@ const Home = () => {
           </p>
           {/* sosial media links   */}
 
-          <div className="flex items-center justify-center gap-16 mt-16 ">
+          <div className="flex items-center justify-center gap-10 mt-16 ">
             <AnimatePresence>
               {Socials &&
                 Socials.map((item, index) => (

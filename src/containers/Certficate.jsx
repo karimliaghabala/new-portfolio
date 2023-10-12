@@ -17,7 +17,7 @@ const Certficate = () => {
   return (
     <section
       id="certficate"
-      className="w-full flex flex-col items-center justify-between"
+      className="flex items-center justify-center flex-col gap-8 my-12"
     >
       <motion.div
         initial={{ opacity: 0, width: 0 }}
@@ -33,7 +33,7 @@ const Certficate = () => {
         <img src={Leaf2} className="w-6 h-auto object-contain" alt="Leaf" />
       </motion.div>
 
-      <div className="course-info w-full  flex flex-col md:flex-row justify-between gap-6 items-center mt-8 p-2 border border-[rgba(255,255,255,0.1)] backdrop-blur-sm ml-10">
+       <div className="course-info w-full  flex flex-col md:flex-row justify-between gap-6 items-center mt-8 border border-[rgba(255,255,255,0.1)] backdrop-blur-sm ">
         <div className="left-info text-white w-full flex flex-col items-center justify-around ">
           <p className="text-header pt-4">{t('year')}</p>
           <p className="text-lg pt-4 text-center">{t('edu')}</p>
@@ -54,7 +54,7 @@ const Certficate = () => {
           )}
         </motion.div>
       </div>
-      <div className="course-info w-full  flex flex-col md:flex-row justify-between gap-6 items-center mt-8 p-2 border border-[rgba(255,255,255,0.1)] backdrop-blur-sm ml-10">
+      <div className="course-info w-full  flex flex-col md:flex-row justify-between gap-6 items-center mt-8 p-2 border border-[rgba(255,255,255,0.1)] backdrop-blur-sm ">
       <div className="left-info text-white w-full flex flex-col items-center justify-around ">
           <p className="text-header pt-4">{t('year2')}</p>
           <p className="text-lg pt-4 text-center2">{t('edu')}</p>
@@ -75,7 +75,7 @@ const Certficate = () => {
           )}
         </motion.div>
       </div>
-      <div className="course-info w-full  flex flex-col md:flex-row justify-between gap-6 items-center mt-8 p-2 border border-[rgba(255,255,255,0.1)] backdrop-blur-sm ml-10">
+      <div className="course-info w-full  flex flex-col md:flex-row justify-between gap-6 items-center mt-8 p-2 border border-[rgba(255,255,255,0.1)] backdrop-blur-sm ">
       <div className="left-info text-white w-full flex flex-col items-center justify-around ">
           <p className="text-header pt-4">{t('year3')}</p>
           <p className="text-lg pt-4 text-center">{t('edu3')}</p>
@@ -96,7 +96,7 @@ const Certficate = () => {
           )}
         </motion.div>
       </div>
-      <div className="course-info w-full  flex flex-col md:flex-row justify-between gap-6 items-center mt-8 p-2 border border-[rgba(255,255,255,0.1)] backdrop-blur-sm ml-10">
+      <div className="course-info w-full  flex flex-col md:flex-row justify-between gap-6 items-center mt-8 p-2 border border-[rgba(255,255,255,0.1)] backdrop-blur-sm ">
       <div className="left-info text-white w-full flex flex-col items-center justify-around ">
           <p className="text-header pt-4">{t('year4')}</p>
           <p className="text-lg pt-4 text-center">{t('edu4')}</p>
@@ -116,7 +116,7 @@ const Certficate = () => {
             </motion.div>
           )}
         </motion.div>
-      </div>
+      </div> 
 
 
     </section>

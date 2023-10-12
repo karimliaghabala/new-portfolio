@@ -18,7 +18,7 @@ import Certficate from "./Certficate";
 const App = () => {
   const { t } = useTranslation();
   return (
-    <div className="w-full  xl:max-w-[1280px]  py-12  lg:px-12 px-4 pl-7 pr-4 lg:pr-32 container ">
+    <div className="w-full  xl:max-w-[1280px]  py-12  lg:px-12  pr-4 lg:pr-32 container ">
       {/*particles container */}
       <ParticlesContainer />
       {/*header */}
@@ -36,13 +36,13 @@ const App = () => {
       {/* Sertficate container */}
       <Certficate />
       {/*contact container */}
-      <Contact />
+       <Contact />
       {/*footer container */}
-      <div className="w-full flex flex-col items-center justify-start mt-32 mb-12 pl-7 ">
+      <div className="w-full flex flex-col items-center justify-start mt-32 mb-12  ">
         <p className="text-3xl tracking-wide text-texlight ">
           Karimli Aghabala
         </p>
-        <div className="flex items-center justify-center gap-16 mt-16 pl-2">
+        <div className="flex items-center justify-center gap-10 mt-16 pl-2">
           <AnimatePresence>
             {Socials &&
               Socials.map((item, index) => (
