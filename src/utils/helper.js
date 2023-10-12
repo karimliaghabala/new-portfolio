@@ -97,37 +97,37 @@ export const ProjectsData = [
     id: `openai-${Date.now()}`,
     name: "Fit Club",
     imgSrc: OpenAI,
-    gitURL: "https://github.com/Vetrivel-VP",
+    gitURL: "https://github.com/karimliaghabala/gym-fitness-app",
   },
   {
     id: `food-${Date.now()}`,
     name: "BakuDev studio",
     imgSrc: RestaurantClone,
-    gitURL: "https://github.com/Vetrivel-VP",
+    gitURL: "https://github.com/karimliaghabala/jed-academy-html-css-task-bakuDev-",
   },
   {
     id: `codepen-${Date.now()}`,
     name: "Təhsil Portalı",
     imgSrc: CodePenClone,
-    gitURL: "https://github.com/Vetrivel-VP",
+    gitURL: "https://github.com/karimliaghabala/cografiya.info",
   },
   
   {
     id: `portfoliofirebase-${Date.now()}`,
     name: "Portfolio UI Fireabse",
     imgSrc: PortfolioFirebase,
-    gitURL: "https://github.com/karimliaghabala/tailwindcss-for-portfolio",
+    gitURL: "https://github.com/karimliaghabala/new-portfolio",
   },
   {
     id: `chatapp-${Date.now()}`,
     name: "Travel",
     imgSrc: ChatApp,
-    gitURL: "https://github.com/Vetrivel-VP",
+    gitURL: "https://github.com/karimliaghabala/jed-academy-travel-web-site",
   },
   {
     id: `freshjuiceui-${Date.now()}`,
     name: "MegaTexnika",
     imgSrc: FreshJuiceUI,
-    gitURL: "https://github.com/Vetrivel-VP",
+    gitURL: "https://github.com/karimliaghabala/jed-academy-mega-texnika",
   },
 ];
