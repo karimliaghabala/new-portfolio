@@ -13,7 +13,10 @@ const Skills = () => {
     className="w-full flex items-center justify-center flex-col gap-12 my-12"
     >
     {/* title */}
-    <div className="w-full flex items-center justify-center py-24">
+    <div className="w-full flex items-center justify-center py-24"
+          data-aos="fade-down"
+          data-aos-easing=" ease-out-cubic"
+          data-aos-duration="2000">
       <motion.div 
       initial={{opacity : 0, width: 0}} 
       animate={{opacity : 1, width: 200}} 
@@ -31,7 +34,10 @@ const Skills = () => {
     <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 w-full pl-2 ">
 
       {/* content section */}
-      <div className="w-full px-8 flex flex-col gap-4 items-start justify-start">
+      <div className="w-full px-8 flex flex-col gap-4 items-start justify-start"
+          data-aos="fade-right"
+          data-aos-easing=" ease-out-cubic"
+          data-aos-duration="2000">
       <p className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary capitalize">
           {t('bt')}
           </p>
@@ -43,7 +49,10 @@ const Skills = () => {
       </p>
       </div>
             {/* image section */}
-      <div className="w-full flex flex-col gap-4 items-center justify-center px-8 ">
+      <div className="w-full flex flex-col gap-4 items-center justify-center px-8 "
+          data-aos="fade-left"
+          data-aos-easing=" ease-out-cubic"
+          data-aos-duration="2000">
         <SkillCard skill={"HTML5"} percentage={"95%"} color={"#FF3F3F"}  />
         <SkillCard skill={"CSS 3 "} percentage={"85%"} color={"#008FFF"}  move={true}/>
         <SkillCard skill={"Java Script"} percentage={"75%"} color={"#FFB900"} />

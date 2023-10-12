@@ -13,7 +13,10 @@ const {t} = useTranslation()
     className="flex items-center justify-center flex-col gap-8 my-12"
     >
     {/* title */}
-    <div className="w-full flex items-center justify-center py-24">
+    <div className="w-full flex items-center justify-center py-24"
+          data-aos="fade-down"
+          data-aos-easing=" ease-out-cubic"
+          data-aos-duration="2000">
       <motion.div 
       initial={{opacity : 0, width: 0}} 
       animate={{opacity : 1, width: 200}} 
@@ -26,7 +29,10 @@ const {t} = useTranslation()
       </motion.div>
     </div>
     {/* main container */}
-    <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 w-full pl-8">
+    <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 w-full pl-8"
+          data-aos="fade-up"
+          data-aos-easing=" ease-out-cubic"
+          data-aos-duration="2000">
     <AnimatePresence>
       {ProjectsData && ProjectsData.map((project,index) =>(
         <ProjectCard  key={project.id} project={project}/>

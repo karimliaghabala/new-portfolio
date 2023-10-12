@@ -26,7 +26,13 @@ const App = () => {
       {/*home container */}
       <Home />
       {/* services count container */}
-      <ServiceCount />
+      <div 
+      className="w-full"
+      data-aos="fade-right"
+      data-aos-easing=" ease-out-cubic"
+      data-aos-duration="2000">
+      <ServiceCount  />
+      </div>
       {/*about container */}
       <About />
       {/*skills container */}
@@ -36,10 +42,21 @@ const App = () => {
       {/* Sertficate container */}
       <Certficate />
       {/*contact container */}
+      <div 
+      className="w-full"
+      data-aos="fade-left"
+      data-aos-easing=" ease-out-cubic"
+      data-aos-duration="2000">
        <Contact />
+      </div>
       {/*footer container */}
       <div className="w-full flex flex-col items-center justify-start mt-32 mb-12  ">
-        <p className="text-3xl tracking-wide text-texlight ">
+        <p 
+        className="text-3xl tracking-wide text-texlight " 
+        data-aos="fade-right"
+        data-aos-easing=" ease-out-cubic"
+        data-aos-duration="3000"
+        >
           Karimli Aghabala
         </p>
         <div className="flex items-center justify-center gap-10 mt-16 pl-2">

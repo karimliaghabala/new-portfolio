@@ -12,7 +12,10 @@ const About = () => {
     className="flex items-center justify-center flex-col gap-8 my-12"
     >
     {/* title */}
-    <div className="w-full flex items-center justify-center py-24">
+    <div className="w-full flex items-center justify-center py-24"
+          data-aos="fade-down"
+          data-aos-easing=" ease-out-cubic"
+          data-aos-duration="2000">
       <motion.div 
       initial={{opacity : 0, width: 0}} 
       animate={{opacity : 1, width: 200}} 
@@ -27,7 +30,10 @@ const About = () => {
     {/* main container */}
     <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 w-full pl-2">
       {/* image section */}
-      <div className="w-full flex items-center justify-center px-8">
+      <div className="w-full flex items-center justify-center px-8"
+          data-aos="fade-right"
+          data-aos-easing=" ease-out-cubic"
+          data-aos-duration="2000">
         <div className="w-full lg:w-96 p-[2px] rounded-md bg-gradient-to-br from bg-primary to-secondary relative ">
           <img 
           src={about} 
@@ -37,7 +43,10 @@ const About = () => {
         </div>
       </div>
       {/* content section */}
-      <div className="w-full px-8 flex flex-col gap-4 items-start justify-start">
+      <div className="w-full px-8 flex flex-col gap-4 items-start justify-start"
+          data-aos="fade-left"
+          data-aos-easing=" ease-out-cubic"
+          data-aos-duration="2000">
       <p className="text-texlight text-base tracking-wide text-justify  ">{t('infoAbout1')}
       </p>
       <p className="text-texlight text-base tracking-wide text-justify  ">{t('infoAbout2')}
