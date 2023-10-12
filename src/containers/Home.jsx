@@ -50,7 +50,7 @@ const Home = () => {
           </div>
           {/* hire me */}
           <a
-            href="https://wa.me/message/2HVPAGLOC4HJP1"
+            href="https://github.com/karimliaghabala/new-portfolio/blob/main/src/assets/cv/KarimliAghabala.pdf"
             style={{ boxShadow: "inset 0px 0px 10px rgba(255,255,255,0.4)" }}
             className="mt-12 border border-[rgba(255,255,255,0.3)] rounded-xl px-8 py-3 active:95 group hover:border-primary"
           >
