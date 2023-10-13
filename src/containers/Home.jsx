@@ -73,7 +73,7 @@ const Home = () => {
               ease: "linear",
             }}
             src={Hero}
-            className="max-w-[500px] h-auto object-contain  lg:w-96 p-[2px] rounded-md bg-gradient-to-br from bg-primary to-secondary relative "
+            className="max-w-[500px] h-auto object-contain  lg:w-96 p-[2px]  relative "
           />
         </div>
       </div>
