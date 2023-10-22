@@ -88,7 +88,7 @@ const translationEn = {
     specialty4:"FRONT-END developer",
     certficate:"See the certificate",
     hCertf:"Certficates and Courses",
-    cv:"Upload your CV"
+    cv:"Upload CV"
 
 }
 const translationRu = {
@@ -132,7 +132,7 @@ const translationRu = {
     specialty4:"ФРОНТ-ЭНД разработчик",
     certficate:"Посмотреть сертификат",
     hCertf:"Сертификат и курс",
-    cv:"Загрузите свое резюме"
+    cv:"Загрузите резюме"
 
 }
 
