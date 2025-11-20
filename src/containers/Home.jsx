@@ -60,22 +60,34 @@ const Home = () => {
           </a>
         </div>
         {/* hero section */}
-        <div className="w-full h-full flex items-start justify-center lg:items-center"
-              data-aos="fade-up"
-              data-aos-easing=" ease-out-cubic"
-              data-aos-duration="1000">
-          <motion.img
-            initial={{ y: 0 }}
-            animate={{ y: [-10, 10, -10] }}
-            transition={{
-              repeat: Infinity,
-              duration: 2,
-              ease: "linear",
-            }}
-            src={Hero}
-            className="max-w-[500px] h-auto object-contain  lg:w-96 p-[2px]  relative "
-          />
-        </div>
+        <div
+  className="w-full h-full flex items-start justify-center lg:items-center"
+  data-aos="fade-up"
+  data-aos-easing="ease-out-cubic"
+  data-aos-duration="1000"
+>
+  <motion.img
+    initial={{ y: 0 }}
+    animate={{ y: [-10, 10, -10] }}
+    transition={{
+      repeat: Infinity,
+      duration: 2,
+      ease: "linear",
+    }}
+    src={Hero}
+    className="
+      w-full                /* bütün ekranlarda tam uyğun artıq genişlik */
+      max-w-[100px]         /* kiçik telefonlarda çox böyük olmasın */
+      md:max-w-[200px]      /* orta ekranlarda */
+      lg:max-w-[300px]      /* böyük ekranlarda */
+      h-auto 
+      object-cover
+      rounded-full          /* şəkli dairəvi edir */
+      p-[2px]
+      relative
+    "
+  />
+</div>
       </div>
     </section>
   );
