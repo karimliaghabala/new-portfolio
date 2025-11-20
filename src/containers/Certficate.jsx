@@ -140,14 +140,14 @@ const Certficate = () => {
           onMouseLeave={() => setIsHoverred4(false)}
         >
           <motion.img
-            className="blur-lg md:w-full"
+            className=""
             src={cert4}
             alt="certficate"
           />
           {isHoverred4 && (
             <motion.div className="absolute inset-0 backdrop-blur-xs bg-[rgba(0,0,0,0.6)] flex items-center justify-center flex-col gap-2 pl-2 ">
-              <a href="#" className="absolute text-white">
-                Sertifikat yoxdur
+              <a href="https://raw.githubusercontent.com/karimliaghabala/new-portfolio/refs/heads/main/src/assets/img/sertficats/Jed.jpg" className="absolute text-white">
+                Sertifikata bax
               </a>
             </motion.div>
           )}
