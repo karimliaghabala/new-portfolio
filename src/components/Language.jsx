@@ -39,7 +39,7 @@ const translationAz = {
     year3:"2022/Sen-2023/Yan",
     edu3:"IT Academy and Algorithmics",
     specialty3:"Front-End developer",
-    year4:"2023/Avqust-2024/Yan(Davam edir...)",
+    year4:"2023/Avqust-2024/Yanvar",
     edu4:"JED Academy",
     specialty4:"FRONT-END proqramçı",
     certficate:"Sertfikata bax",
@@ -83,7 +83,7 @@ const translationEn = {
     year3:"2022/Sept-2023/Jan",
     edu3:"IT Academy and Algorithmics",
     specialty3:"FRONT-END developer",
-    year4:"2023/Aug-2024/Jan( Continue...)",
+    year4:"2023/Aug-2024/January",
     edu4:"JED Academy",
     specialty4:"FRONT-END developer",
     certficate:"See the certificate",
@@ -177,7 +177,7 @@ const translationDe = {
     specialty4:"Entwickler für Benutzeroberflächen",
     certficate:"Zertifikat ansehen",
     hCertf:"Zertifikat und Kurs",
-    cv:"Laden Sie Ihren Lebenslauf hoch"
+    cv:"Laden Sie Mein Lebenslauf hoch"
 
 }
 i18n
