@@ -77,9 +77,9 @@ const Home = () => {
     src={Hero}
     className="
       w-full                /* bütün ekranlarda tam uyğun artıq genişlik */
-      max-w-[100px]         /* kiçik telefonlarda çox böyük olmasın */
-      md:max-w-[200px]      /* orta ekranlarda */
-      lg:max-w-[300px]      /* böyük ekranlarda */
+      max-w-[200px]         /* kiçik telefonlarda çox böyük olmasın */
+      md:max-w-[300px]      /* orta ekranlarda */
+      lg:max-w-[400px]      /* böyük ekranlarda */
       h-auto 
       object-cover
       rounded-full          /* şəkli dairəvi edir */
