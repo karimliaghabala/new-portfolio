@@ -114,9 +114,9 @@ export const ProjectsData = [
   
   {
     id: `portfoliofirebase-${Date.now()}`,
-    name: "Portfolio UI Fireabse",
+    name: "News Portal(real project(front and backend))",
     imgSrc: PortfolioFirebase,
-    gitURL: "https://github.com/karimliaghabala/new-portfolio",
+    gitURL: "https://zerdabimedia.az",
   },
   {
     id: `chatapp-${Date.now()}`,
