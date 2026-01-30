@@ -25,7 +25,7 @@ const App = () => {
       <Header />
       {/*home container */}
       <Home />
-      {/* services count container */}
+      {/* services scount container */}
       <div 
       className="w-full"
       data-aos="fade-up"
